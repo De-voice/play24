@@ -45,7 +45,7 @@ function App() {
 			img_src: "./images/img5.jpg",
 			src: "./songs/y2mate.com - Fireboy .mp3"
 		}
-	])
+	]);
 
 	const [currentSongIndex,setCurrentSongIndex] = useState(0);
 	const [nextSongIndex,setNextSongIndex] = useState(0);

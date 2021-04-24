@@ -4,6 +4,7 @@ import { SkipNext, SkipPrevious,PlayArrow,Pause } from "@material-ui/icons"
 function Controls(props) {
     return (
         <div className = "control">
+            
             <button className = "control__SkipBtn" onClick = {() =>props.skipSong()}>
                   <SkipPrevious/>
             </button>

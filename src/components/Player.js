@@ -26,7 +26,6 @@ function Player(props) {
                 if(temp > props.songs.length - 1) {
                     temp = 0
                 }
-
                 return temp
             });
         } else {
